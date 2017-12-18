@@ -3,6 +3,6 @@ def rechts_ausrichten (s):
 
 rechts_ausrichten('alley')
 
-*kommentar
+#kommentar
 
 
