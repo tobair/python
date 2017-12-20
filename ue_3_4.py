@@ -1,8 +1,8 @@
-def mach_zwei(f):
-    f()
-    f()
+def mach_zwei(f,x):
+    f(x)
+    f(x)
 
-def print_spam():
-    print('spam')
+def print_spam(x):
+    print(x)
 
-mach_zwei(print_spam)
+mach_zwei(print_spam,'hallo')
